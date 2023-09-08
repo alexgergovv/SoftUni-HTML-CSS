@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 2em;
+}
+body{
+    background-color: rgb(238,238,238);
+    padding: 0em 0em;
+}
+img{
+    background-color: rgb(255,255,255);
+}
+blockquote{
+    font-family: Georgia, serif;
+}
+a{
+    color: rgb(0,153,0);
+}
+h1, h2{
+    font-family: Gergia, serif;
+    padding: 0.8em;
+}
+.title{
+    width: 100%;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    padding: 0.7em 0;
+    padding: 0.6em;
+}
+.level1, .level2{
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+.level2{
+    padding-top: 1em;
+}
+section{
+    flex: 1 1 35rem;
+}
+aside{
+    flex: 1 1 15rem;
+}
+.photo1{
+    display: block;
+    border: 3px solid #000;
+    background-color: #fff;
+    padding: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    float: right;
+    margin:0 0 1em 1em;
+}
+blockquote .ital, .name
+{
+    opacity: 0.5;
+    padding: 1em ;
+    width: 15rem;
+    margin: 0 0 1em 1em;
+    font-style: italic;
+    padding-top: 2em;
+}
+.p1{
+    padding: 2em;
+    width: 23rem;
+    margin-right: auto;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+}
+blockquote{
+    display: flex;
+}
+blockquote section{
+    margin-right: auto;
+}
+.photo2{
+    padding: 2em;
+    display: block;
+    border: 3px solid #000;
+    background-color: #fff;
+    padding: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    float: left;
+    margin:1em 1em 1em 0;
+}
+p{
+    padding: 1em;
+}

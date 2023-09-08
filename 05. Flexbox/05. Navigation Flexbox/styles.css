@@ -1,0 +1,26 @@
+header{
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+}
+ul{
+    display: flex;
+}
+nav ul li a{
+    color: rgb(0,153,0);
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+}
+body{
+    margin: 5em;
+}
+header h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+main h1{
+    font-weight: 500;
+}
+header nav{
+    padding-top: 1em;
+    margin-left: auto;
+}
