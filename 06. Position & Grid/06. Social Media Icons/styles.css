@@ -1,0 +1,13 @@
+ul{
+    display: inline-block;
+    list-style: none;
+}
+a{
+    border-radius: 50%;
+}
+a:hover{
+    cursor: pointer;
+}
+li{
+    display: inline-block;
+}
